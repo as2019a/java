@@ -1,0 +1,58 @@
+package com.inc.array;
+
+import java.awt.BorderLayout;
+import java.awt.Graphics;
+import java.awt.Point;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class PackMan extends JFrame {
+	JPanel canvas;
+	int[][] map = {
+			{1,0,0,0,0},
+			{1,0,0,1,0},
+			{1,1,0,1,0},
+			{0,0,0,1,0},
+			{1,1,1,1,1},
+	};
+	Point p = new Point();
+	private PackMan() {
+		setTitle("PackMan");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(300, 300, 500, 500);
+		setResizable(true);
+		setLayout(new BorderLayout());
+		initComponent();	
+		initEvent();
+		setVisible(true);
+	}
+	
+	private void initEvent() {
+		
+		
+	}
+
+	private void initComponent() {
+		canvas = new JPanel() {
+			@Override
+			public void paint(Graphics g) {
+				for(int i = 0; i < map.length; i++) {
+					for(int j = 0; j < map[i].length; j++) {
+						if(map[i][j] == 1) {
+							g.fill3DRect(j*100, i*100, 100, 100, true);
+						}else if(map[i][j] == 2) {
+							g.fillRect(x, y, width, height);
+						}
+					}
+				}
+			}
+		};
+		add(canvas);
+	}
+
+	public static void main(String[] args) {
+		new PackMan();
+	}
+
+}

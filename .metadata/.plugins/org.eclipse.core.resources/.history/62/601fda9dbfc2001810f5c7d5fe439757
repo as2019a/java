@@ -1,0 +1,28 @@
+package com.inc.array;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+
+public class packMan {
+	
+	
+	
+	
+	private packMan() {
+		setTitle("Terms of Membership");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(300, 300, 900, 900);
+		setResizable(true);
+		setLayout(new BorderLayout());
+		initMenu();
+		initComponent();	
+		initEvent();
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

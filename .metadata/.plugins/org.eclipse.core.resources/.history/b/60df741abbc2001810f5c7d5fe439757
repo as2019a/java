@@ -1,0 +1,13 @@
+package com.inc.array;
+
+public class ArrayEx3 {
+
+	public static void main(String[] args) {
+		char[][] characters = {
+					{'A','B','C','D','E'},
+					{},
+					{},
+					{}
+				};
+	}
+}

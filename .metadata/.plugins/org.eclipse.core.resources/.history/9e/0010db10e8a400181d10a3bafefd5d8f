@@ -1,0 +1,23 @@
+package som.inc.loop;
+
+public class WhileEx2 {
+
+	public static void main(String[] args) {
+		int number = 1;
+		while(number < 10) {
+			//System.out.println(number);
+			//System.out.println("5 X "+number+" = "+5*number);
+			System.out.printf("5 X %d = %d\n", number, number * 5);
+			//System.out.println();
+			++number;
+		}
+		//실습 3단을 출력해보세요
+		int number2 = 1;
+		while(number2 < 10) {
+			System.out.printf("3 X %d = %d\n", number2, number2 * 3);
+			++number2;
+		}
+		
+	}
+
+}

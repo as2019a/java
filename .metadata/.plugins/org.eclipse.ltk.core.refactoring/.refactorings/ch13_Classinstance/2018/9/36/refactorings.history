@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Diary.java&apos; to &apos;ch23_exception/src/cim.inc.diary&apos;&#x0D;&#x0A;- Original project: &apos;ch13_Classinstance&apos;&#x0D;&#x0A;- Destination element: &apos;ch23_exception/src/cim.inc.diary&apos;&#x0D;&#x0A;- Original element: &apos;com.inc.smartphone.Diary.java&apos;" description="Copy compilation unit" destination="=ch23_exception/src&lt;cim.inc.diary" element1="/src&lt;com.inc.smartphone{Diary.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1536036711176" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package com.inc.network;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ChatSever {
+
+	public static void main(String[] args) throws IOException {
+		ServerSocket severSocket = new ServerSocket();
+		severSocket.bind(new InetSocketAddress("Iocalhost", 5001));
+		System.out.println("Sever Start");
+		
+		Socket socket = severSocket.accept();
+		System.out.println("Link with client");
+		DataInputStream dis = new DataInputStream(socket.getInputStream());
+		System.out.println(dis.readUTF());
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NCalculator.java&apos; to &apos;indiv1_project/src/com.inc.indiveproject&apos;&#x0D;&#x0A;- Original project: &apos;component_3&apos;&#x0D;&#x0A;- Destination element: &apos;indiv1_project/src/com.inc.indiveproject&apos;&#x0D;&#x0A;- Original element: &apos;com.inc.components3.NCalculator.java&apos;" description="Copy compilation unit" destination="=indiv1_project/src&lt;com.inc.indiveproject" element1="/src&lt;com.inc.components3{NCalculator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1537518047629" units="1" version="1.0"/>
+</session>

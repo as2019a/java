@@ -1,0 +1,9 @@
+package com.inc.indiveproject;
+
+public class Logins {
+
+	public static void main(String[] args) {
+		new Logins();
+	}
+
+}

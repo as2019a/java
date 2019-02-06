@@ -1,0 +1,10 @@
+package com.inc.array;
+
+public class ArrayEx1 {
+
+	public static void main(String[] args) {
+		//리터럴 방식
+		String[] seats = {"박태환","김연아","손연재"};
+	}
+
+}

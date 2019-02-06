@@ -1,0 +1,13 @@
+package com.inc.indiveproject;
+
+import javax.swing.JFrame;
+
+public class Logins extends JFrame {
+	
+	
+	
+	public static void main(String[] args) {
+		new Logins();
+	}
+
+}

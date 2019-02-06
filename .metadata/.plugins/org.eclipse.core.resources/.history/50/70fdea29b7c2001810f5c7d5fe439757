@@ -1,0 +1,10 @@
+package com.inc.array;
+
+public class ArrayEx1 {
+
+	public static void main(String[] args) {
+		//리터럴 방식 (배열을 생성하면서 동시에 데이터를 입력 -> 사이즈 결정)
+		String[] seats = {"박태환","김연아","손연재"};
+	}
+
+}

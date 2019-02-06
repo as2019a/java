@@ -1,0 +1,9 @@
+package com.inc.array;
+
+public class packMan {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

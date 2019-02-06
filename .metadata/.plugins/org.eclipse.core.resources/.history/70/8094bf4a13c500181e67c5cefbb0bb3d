@@ -1,0 +1,19 @@
+package com.inc.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListEx1 {
+
+	public static void main(String[] args) {
+		//int[] numberArray = new int[4];
+		List<Integer> numberList = new ArrayList<Integer>();
+		//numberArray[0] = 0;
+		numberList.add(0);
+		numberList.add(1);
+		numberList.add(2);
+		numberList.add(3);
+		int zero = numberList.get(0);
+	}
+
+}

@@ -1,0 +1,42 @@
+package som.inc.loop;
+
+public class WhileEx2 {
+
+	public static void main(String[] args) {
+		int number = 1;
+		while(number < 10) {
+			//System.out.println(number);
+			//System.out.println("5 X "+number+" = "+5*number);
+			System.out.printf("5 X %d = %d\n", number, number * 5);
+			//System.out.println();
+			++number;
+		}
+		//실습 3단을 출력해보세요
+		int number2 = 1;
+		while(number2 < 10) {
+			System.out.printf("3 X %d = %d\n", number2, number2 * 3);
+			++number2;
+		}
+		System.out.println("------------------------------------");
+		//실습
+		//2 X 7 = 14
+		//3 X 7 = 21
+		//4 X 7 = 28
+		//5 X 7 = 35
+		//6 X 7 = 42
+		int number3 = 2;
+		while(number3 < 7) {
+			System.out.printf("%d X 7 = %d\n", number3, number3 * 7);
+			++number3;
+		}
+		//추가 개인 실습 - 12단을 99까지 곱한것을 입력하시오.(응용test)
+		int number5 = 1;
+		while(number5 < 99) {
+			System.out.printf("12 X %d = %d\n", number5, number5 * 12);
+			++number5;
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.inc.stream;
+
+import java.io.FileOutputStream;
+
+public class StreamEx1 {
+
+	public static void main(String[] args) {
+		FileOutputStream fos = new FileOutputStream("test.txt");
+	}
+
+}

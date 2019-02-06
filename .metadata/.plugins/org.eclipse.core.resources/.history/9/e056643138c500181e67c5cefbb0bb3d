@@ -1,0 +1,21 @@
+package com.inc.indiveproject;
+
+import javax.swing.JFrame;
+
+public class HKEwebs extends JFrame {
+	
+	/*
+	 * HKE Homepage 구성
+	 * 메뉴바 적용(대신 일부 아이템 변경)
+	 * 
+	 */
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

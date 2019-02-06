@@ -1,0 +1,25 @@
+package com.inc.set;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class SetEx1 {
+
+	private static final Set<Integer> IottoNumbers = null;
+
+	public static void main(String[] args) {
+		Set<Integer> IottoNumers = new HashSet<>();
+		IottoNumers.add(30);
+		IottoNumers.add(15);
+		IottoNumers.add(45);
+		IottoNumers.add(27);
+		
+		Iterator<Integer> iterator = IottoNumbers.iterator();
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+		System.out.println(iterator.next());
+	}
+
+}

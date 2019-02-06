@@ -1,0 +1,15 @@
+package com.inc.stream;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.util.Scanner;
+
+public class StreamEx1 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		String msg = new Scanner(System.in).nextLine();
+		FileOutputStream fos = new FileOutputStream("test.txt");
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.inc.set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetEx1 {
+
+	public static void main(String[] args) {
+		Set<Integer> IottoNumers = new HashSet<>();
+		IottoNumers.add(30);
+		IottoNumers.add(15);
+		IottoNumers.add(45);
+		IottoNumers.add(27);
+		IottoNumers.
+	}
+
+}

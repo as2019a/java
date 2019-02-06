@@ -1,0 +1,14 @@
+package som.inc.loop;
+
+public class WhileEx3 {
+
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 2;
+		while(a <= 5) {
+			System.out.printf("%d, %d",a ,b);
+		}
+
+	}
+
+}

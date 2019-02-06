@@ -1,0 +1,13 @@
+package com.inc.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListEx2 {
+
+	public static void main(String[] args) {
+		List<List<Character>> characters = new ArrayList<>();
+
+	}
+
+}

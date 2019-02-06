@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;memo&apos; to &apos;ch33_thread/src&apos;&#x0D;&#x0A;- Original project: &apos;ch29_swing&apos;&#x0D;&#x0A;- Destination element: &apos;ch33_thread/src&apos;&#x0D;&#x0A;- Original element: &apos;ch29_swing/src/memo&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=ch33_thread/src" element1="/src&lt;memo" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1537235648029" version="1.0"/>
+</session>

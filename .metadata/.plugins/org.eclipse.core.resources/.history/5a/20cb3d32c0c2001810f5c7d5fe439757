@@ -1,0 +1,45 @@
+package com.inc.array;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class PackMan extends JFrame {
+	JPanel canvas;
+	int[][] map = {
+			{1,0,0,0,0},
+			{1,0,0,1,0},
+			{1,1,1,1,0},
+			{0,0,0,1,0},
+			{1,1,1,1,1},
+	};
+	
+	
+	
+	private PackMan() {
+		setTitle("PackMan");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(300, 300, 500, 500);
+		setResizable(true);
+		setLayout(new BorderLayout());
+		initComponent();	
+		initEvent();
+		setVisible(true);
+	}
+	
+	private void initEvent() {
+		
+		
+	}
+
+	private void initComponent() {
+		canvas = new JPanel()
+		
+	}
+
+	public static void main(String[] args) {
+		new PackMan();
+	}
+
+}

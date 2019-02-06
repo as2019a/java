@@ -1,0 +1,16 @@
+package com.inc.network;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.Socket;
+
+public class ChatClient {
+
+	public static void main(String[] args) throws IOException {
+		Socket socket = new Socket();
+		socket.connect(new InetSocketAddress("Iocalhost", 5001));
+		System.out.println("Link with Sever");
+		
+	}
+
+}

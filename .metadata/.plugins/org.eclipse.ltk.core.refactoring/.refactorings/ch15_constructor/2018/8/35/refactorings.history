@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.inc.object&apos; to &apos;ch16_inheritance/src/com.inc.inheritance&apos;&#x0D;&#x0A;- Original project: &apos;ch15_constructor&apos;&#x0D;&#x0A;- Destination element: &apos;ch16_inheritance/src/com.inc.inheritance&apos;&#x0D;&#x0A;- Original element: &apos;ch15_constructor/src/com.inc.object&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=ch16_inheritance/src&lt;com.inc.inheritance" element1="/src&lt;com.inc.object" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1535523912335" version="1.0"/>
+</session>

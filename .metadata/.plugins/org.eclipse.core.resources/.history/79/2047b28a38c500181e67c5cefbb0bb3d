@@ -1,0 +1,63 @@
+package com.inc.indiveproject;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+
+public class HKEwebs extends JFrame {
+	
+	/*
+	 * HKE Homepage 구성
+	 * 메뉴바 적용(대신 일부 아이템 변경)
+	 * 
+	 */
+	
+	// 타이틀(제이레이블)
+	
+	
+	// Homepage 링크 부분
+	
+	
+	// West
+	
+	
+	// Center
+	
+	
+	// East
+	
+	
+	// South
+	
+	
+	// 메뉴부분
+	//JPanel memubers;
+	
+	JMenuBar menuBar;
+	
+	JMenu fileMenu;
+	JMenu editMenu;
+	JMenu helpMenu;
+	
+	// fileMenu
+	JMenuItem newItem;
+	JMenuItem openItem;
+	JMenuItem saveItem;
+	JMenuItem saveAsItem;
+	
+	// editMenu
+	JMenuItem calculatorItem;
+	JMenuItem colorItem;
+	
+	// helpMenu
+	JMenuItem webItem;
+	JMenuItem careersItem;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

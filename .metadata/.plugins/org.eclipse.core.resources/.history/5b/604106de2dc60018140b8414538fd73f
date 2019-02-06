@@ -1,0 +1,27 @@
+package com.inc.constructor;
+
+public class Employee {
+	int id;
+	String name;
+	int salary;
+	
+	//기본생성자 - 생성자가 아예 없을 경우에 JVM만들어주는 생성자
+	//public Employee() {};
+	public Employee(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public Employee(int id, String name, int salary) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	public static void main(String[] args) {
+		Employee e = new Employee(100, "홍길동");
+		System.out.println(e.name);
+		
+		Employee e2 = new Employee(101, "임꺽정", 1000);
+		System.out.println(e.salary);
+	}
+}

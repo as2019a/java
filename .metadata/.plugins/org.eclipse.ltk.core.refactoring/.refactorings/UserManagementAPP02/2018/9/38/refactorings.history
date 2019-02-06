@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;UserManagementAPP02/src/com.inc.MemberList1&apos;&#x0D;&#x0A;- Original project: &apos;UserManagementAPP02&apos;&#x0D;&#x0A;- Destination element: &apos;UserManagementAPP02/src/com.inc.MemberList1&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Member_List.java&#x0D;&#x0A;     MemberDTO.java&#x0D;&#x0A;     MemberDAO.java&#x0D;&#x0A;     MemberProc.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;com.inc.MemberList1" element1="/src&lt;{Member_List.java" element2="/src&lt;{MemberDTO.java" element3="/src&lt;{MemberDAO.java" element4="/src&lt;{MemberProc.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1537432748686" units="4" version="1.0"/>
+</session>

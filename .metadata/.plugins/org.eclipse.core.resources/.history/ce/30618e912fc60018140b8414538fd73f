@@ -1,0 +1,11 @@
+package com.inc.network;
+
+import java.net.ServerSocket;
+
+public class ChatSever {
+
+	public static void main(String[] args) {
+		ServerSocket severSocket = new ServerSocket();
+	}
+
+}

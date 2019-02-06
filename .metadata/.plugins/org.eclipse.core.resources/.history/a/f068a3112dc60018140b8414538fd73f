@@ -1,0 +1,15 @@
+package com.inc.constructor;
+
+public class Employee {
+	int id;
+	String name;
+	int salary;
+	
+	//기본생성자 - 생성자가 아예 없을 경우에 JVM만들어주는 생성자
+	public Employee() {};
+	
+	public static void main(String[] args) {
+		Employee e = new Employee();
+		System.out.println(e.name);
+	}
+}
